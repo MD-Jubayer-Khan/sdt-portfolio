@@ -1,0 +1,54 @@
+
+body{
+    background-color: #1A1A1A;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+}
+.resumeBtn{
+    background-color: #ee3b96;
+    color: white;
+}
+.headingText{
+    color: #ee3b96;
+}
+.hero{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.portfolio{
+    border: 1px solid gray;
+    margin: auto;
+    width: 80%;
+
+}
+.hrLine{
+    border: 1px solid gray;
+}
+.contactSec{
+    width: 70vw;
+    margin: auto;
+    border: 1px solid gray;
+    box-shadow: 8px 8px;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.formC{
+margin-left: 300px;
+margin-top: 10px;
+width: 26rem;
+}
+
+@media screen and (max-width: 480px) {
+.cmp{
+ display: flex;
+ flex-wrap: wrap;
+}
+.formC{
+    margin-left: 10px;
+    width: 67vw;
+    }
+  }
